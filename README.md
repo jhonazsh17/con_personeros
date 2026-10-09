@@ -115,3 +115,13 @@ mediante su configuración CORS.
 La app no incluye usuarios de prueba. Los usuarios se administran desde el
 backend; no publiques DNI reales, credenciales ni datos de votación en ejemplos
 o capturas.
+
+## Capturas de pantalla
+
+### Inicio de sesión
+
+![Pantalla de inicio de sesión](docs/screenshots/Captura%20de%20pantalla%202026-10-06%20012614.png)
+
+### Pantalla principal
+
+![Home de Con Personeros](docs/screenshots/Captura%20de%20pantalla%202026-10-06%20012823.png)
