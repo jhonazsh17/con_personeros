@@ -58,16 +58,16 @@ El resultado web se genera en `build/web`; el APK se genera en
 
 ## Backend requerido
 
-La infraestructura y API que utiliza la app están en el repositorio
-[`con_personeros_iaas`](https://github.com/jhonazsh17/con_personeros_iaas). No es
+La infraestructura como código y API que utiliza la app están en el repositorio
+[`con_personeros_iac`](https://github.com/jhonazsh17/con_personeros_iac). No es
 una dependencia de `pubspec.yaml`: es el backend que debe estar desplegado y
 accesible para que funcionen el login, el registro y la consulta de actas.
 
 Si también necesitas descargar el backend:
 
 ```bash
-git clone https://github.com/jhonazsh17/con_personeros_iaas.git
-cd con_personeros_iaas
+git clone https://github.com/jhonazsh17/con_personeros_iac.git
+cd con_personeros_iac
 npm install
 npm install -g serverless
 npm run deploy
@@ -75,7 +75,7 @@ npm run deploy
 
 Para desplegarlo se requiere Node.js 20, Serverless Framework y credenciales de
 AWS configuradas localmente mediante AWS CLI. Consulta el
-[README del backend](https://github.com/jhonazsh17/con_personeros_iaas#readme)
+[README del backend](https://github.com/jhonazsh17/con_personeros_iac#readme)
 para detalles de despliegue y configuración de feature flags. El flag
 `enableNewVotingSystem` debe estar habilitado para que la app muestre el login.
 No guardes credenciales de AWS en este repositorio.
